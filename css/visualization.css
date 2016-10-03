@@ -1,0 +1,56 @@
+body {
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+
+   font-family: sans-serif;
+}
+
+h2 {
+   padding: 15px;
+}
+
+.chart {
+   height: 350px;
+   max-width: 100%;
+   overflow: scroll;
+   overflow-y: hidden;
+   border: 1px solid black;
+   border-left: none;
+   border-right: none;
+}
+
+.center {
+   text-align: center;
+}
+
+.d3-tip {
+   background: rgba(255, 255, 255, 0.9);
+   padding: 4px;
+   border-radius: 2px;
+   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.d3-tip p {
+   margin: 0;
+   padding: 0;
+}
+
+.d3-tip:after {
+   box-sizing: border-box;
+   display: inline;
+   font-size: 10px;
+   width: 100%;
+   color: rgba(255, 255, 255, 0.9);
+   content: '\25BC';
+   position: absolute;
+   text-align: center;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.d3-tip.n:after {
+   margin: -4px 0 0 0;
+   top: 100%;
+   left: 0;
+}

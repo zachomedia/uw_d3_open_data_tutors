@@ -1,0 +1,3 @@
+
+var UW_API_KEY  = 'YOUR_API_KEY_HERE';
+var UW_API_BASE = 'https://api.uwaterloo.ca/v2';

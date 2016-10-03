@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang='en'>
+   <head>
+      <meta charset='utf-8'>
+      <title>d3 Data Visualization</title>
+
+      <link rel='stylesheet' href='css/visualization.css'>
+   </head>
+   <body>
+      <h2>Tutors per Course</h2>
+      <div class='chart'>
+         <svg class='tutors'></svg>
+      </div>
+
+      <h2>Students per Course</h2>
+      <div class='chart'>
+         <svg class='enrollment'></svg>
+      </div>
+		
+      <h2>Students per Tutor per Course</h2>
+      <div class='chart'>
+         <svg class='students_per_tutor'></svg>
+      </div>
+		
+      <h2>Tutors per Student per Course</h2>
+      <div class='chart'>
+         <svg class='tutors_per_student'></svg>
+      </div>
+		
+      <!-- JavaScript -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.6/d3.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/alasql/0.3.2/alasql.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.18.2/URI.min.js'></script>
+      <script src='js/config.js'></script>
+      <script src='js/globals.js'></script>
+      <script src='js/tutors.js'></script>
+      <script src='js/students.js'></script>
+		<script src='js/students_per_tutor.js'></script>
+		<script src='js/tutors_per_student.js'></script>
+   </body>
+</html>
